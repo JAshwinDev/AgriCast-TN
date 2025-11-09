@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Font classes for different languages */
+.tamil-font {
+  font-family: 'Noto Sans Tamil', sans-serif;
+}
+
+.hindi-font {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.english-font {
+  font-family: 'Inter', sans-serif;
+}
